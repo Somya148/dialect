@@ -16,7 +16,7 @@
   /* For Smartphones */
   @media all and (max-width: 670px) {
     .lesson {
-      width: 100%;
+      width: 50%;
     }
     
     footer {
@@ -24,7 +24,7 @@
     }
     
     .btn {
-      width: 100%;
+      width: 50%;
     }
     
     .facebook {
