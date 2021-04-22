@@ -1,0 +1,202 @@
+body {
+  font-family: "Lucida Grande";
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0px 100px 0px;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/223/587/non_2x/people-talking-vector.jpg);
+  background-size: cover;
+  opacity:0.7;
+  color:black;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  
+  font-size: 90px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  padding-bottom:0px;
+  opacity:1;
+}
+
+.top-wrapper p {
+  
+  margin-bottom: 6px;
+  font-size:30px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+
+.fa{
+  margin-right:5px;
+
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 60px;
+  margin-top: 0px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color:black;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+  width:25%;
+  padding-bottom:0px;
+  align:center:
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 25%;
+  color: black;
+  opacity:1;
+  align:center;
+  padding-left:50px;
+  padding-bottom:50px;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 17px;
+  color:purple;
+}
+
+.heading h3 {
+  font-weight: normal;
+  color: white;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #ec4d7d;
+  cursor: pointer;
+  box-shadow: 0 7px #9c5979;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.about{
+  color:black;
+  font-size: 20px;
+}
+.about p{
+  font-size:25px;
+}
+footer img {
+width: 125px;
+}
+
+footer p {
+color: purple;
+font-size: 12px;
+}
+
+footer {
+padding-top: 30px;
+padding-bottom: 20px;
+background-color:peachpuff;
+}
